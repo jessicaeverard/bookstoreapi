@@ -42,11 +42,28 @@ namespace BookStore.Services
         public async Task<AuthorModel> DeleteAuthorByIdAsync(int id)
         {
             var author = await _dataContext.Authors.FirstOrDefaultAsync(p => p.AuthorId == id);
-            var tEntity = _dataContext.Authors.Remove(author);
-            await _dataContext.SaveChangesAsync();
+            var books = await _dataContext.Books.FirstOrDefaultAsync(p => p.AuthorId == id);
 
-            return tEntity.Entity;
 
+            // doesnt work if you have no books associated with it 
+            if (author.AuthorId == books.AuthorId ) 
+            {
+                _dataContext.Books.Remove(books);
+                await _dataContext.SaveChangesAsync();
+            } 
+
+            // This deletes the author but returns error - think it is trying to delete it twice
+
+            /*
+            if (author.Books == null)
+            {
+                var Entity = _dataContext.Authors.Remove(author);
+                await _dataContext.SaveChangesAsync();
+                return Entity.Entity;
+
+            }*/
+
+            return null;
         }
 
         // returns list of all pizzas in database

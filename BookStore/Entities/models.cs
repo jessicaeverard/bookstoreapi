@@ -11,10 +11,9 @@ namespace BookStore.Entities
         public string Title { get; set; }
         public string? Description { get; set; }
 
-        public int? AuthorId { get; set; }
 
-        [ForeignKey("AuthorId")]
-        public virtual AuthorModel? Author { get; set; }
+        public int AuthorId { get; set; }
+        public AuthorModel Author { get; set; }
 
         //if one field is nullable it all has to be nullable
 

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "XL6yKoQYzp9NqUbc2jG80iBsnR0kLx2PlnIE89CQruM=",
+  "Hash": "2Yi6EEYJz0i2xkD2qDN5UFlu+RppE5VJGTtYGEFMtnc=",
   "Source": "BookStore",
   "BasePath": "_content/BookStore",
   "Mode": "Default",
@@ -9,10 +9,10 @@
   "DiscoveryPatterns": [],
   "Assets": [
     {
-      "Identity": "C:\\Users\\jeverard\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.1\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
+      "Identity": "C:\\Users\\jesse\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.1\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
       "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\jeverard\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.1\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\jesse\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.1\\staticwebassets\\",
       "BasePath": "_content/Microsoft.AspNetCore.Components.QuickGrid",
       "RelativePath": "Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
       "AssetKind": "All",
@@ -25,13 +25,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\jeverard\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.1\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\jesse\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.1\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\jeverard\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.1\\staticwebassets\\QuickGrid.razor.js",
+      "Identity": "C:\\Users\\jesse\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.1\\staticwebassets\\QuickGrid.razor.js",
       "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\jeverard\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.1\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\jesse\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.1\\staticwebassets\\",
       "BasePath": "_content/Microsoft.AspNetCore.Components.QuickGrid",
       "RelativePath": "QuickGrid.razor.js",
       "AssetKind": "All",
@@ -44,13 +44,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\jeverard\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.1\\staticwebassets\\QuickGrid.razor.js"
+      "OriginalItemSpec": "C:\\Users\\jesse\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.1\\staticwebassets\\QuickGrid.razor.js"
     },
     {
-      "Identity": "C:\\Users\\jeverard\\source\\repos\\BookStore\\BookStore\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BookStore.styles.css",
+      "Identity": "C:\\Users\\jesse\\source\\repos\\bookstoreapi\\BookStore\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BookStore.styles.css",
       "SourceId": "BookStore",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\jeverard\\source\\repos\\BookStore\\BookStore\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\jesse\\source\\repos\\bookstoreapi\\BookStore\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/BookStore",
       "RelativePath": "BookStore.styles.css",
       "AssetKind": "All",
@@ -63,7 +63,7 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\jeverard\\source\\repos\\BookStore\\BookStore\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BookStore.styles.css"
+      "OriginalItemSpec": "C:\\Users\\jesse\\source\\repos\\bookstoreapi\\BookStore\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BookStore.styles.css"
     }
   ]
 }

@@ -7268,24 +7268,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jeverard\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\jesse\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jeverard\\source\\repos\\BookStore\\BookStore\\BookStore.csproj",
+      "projectUniqueName": "C:\\Users\\jesse\\Source\\Repos\\bookstoreapi\\BookStore\\BookStore.csproj",
       "projectName": "BookStore",
-      "projectPath": "C:\\Users\\jeverard\\source\\repos\\BookStore\\BookStore\\BookStore.csproj",
-      "packagesPath": "C:\\Users\\jeverard\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jeverard\\source\\repos\\BookStore\\BookStore\\obj\\",
+      "projectPath": "C:\\Users\\jesse\\Source\\Repos\\bookstoreapi\\BookStore\\BookStore.csproj",
+      "packagesPath": "C:\\Users\\jesse\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jesse\\Source\\Repos\\bookstoreapi\\BookStore\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\jeverard\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\jesse\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
